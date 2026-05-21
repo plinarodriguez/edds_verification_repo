@@ -1,0 +1,466 @@
+2025-07-02 17:42:25,892  StREEQ 1.0_dev
+2025-07-02 17:42:25,892  Running in serial mode
+2025-07-02 17:42:25,935  Input parameters successfully loaded from verif_time.yaml
+2025-07-02 17:42:25,938  Deterministic data for 20 QOIs loaded from data_t1-5-6-12_Tavg.dat
+2025-07-02 17:42:25,939  ---------------------------------------------------------------------------
+2025-07-02 17:42:25,940  Performing model fits for QOI 1 of 20, raw fits...
+2025-07-02 17:42:25,941      completed 0% of model fits
+2025-07-02 17:42:26,103      completed 16% of model fits
+2025-07-02 17:42:26,109      completed 33% of model fits
+2025-07-02 17:42:26,119      completed 50% of model fits
+2025-07-02 17:42:26,167      completed 66% of model fits
+2025-07-02 17:42:26,243      completed 83% of model fits
+2025-07-02 17:42:26,243      completed 100% of model fits
+2025-07-02 17:42:26,244  Performing model fits for QOI 1 of 20, bootstrap fits...
+2025-07-02 17:42:26,320      completed 0% of model fits
+2025-07-02 17:42:28,659      completed 10% of model fits
+2025-07-02 17:42:31,016      completed 20% of model fits
+2025-07-02 17:42:33,327      completed 30% of model fits
+2025-07-02 17:42:35,697      completed 40% of model fits
+2025-07-02 17:42:38,095      completed 50% of model fits
+2025-07-02 17:42:40,403      completed 60% of model fits
+2025-07-02 17:42:42,774      completed 70% of model fits
+2025-07-02 17:42:45,308      completed 80% of model fits
+2025-07-02 17:42:47,643      completed 90% of model fits
+2025-07-02 17:42:49,987      completed 100% of model fits
+2025-07-02 17:42:49,991  ---------------------------------------------------------------------------
+2025-07-02 17:42:49,991  Performing model fits for QOI 2 of 20, raw fits...
+2025-07-02 17:42:49,992      completed 0% of model fits
+2025-07-02 17:42:50,079      completed 16% of model fits
+2025-07-02 17:42:50,085      completed 33% of model fits
+2025-07-02 17:42:50,094      completed 50% of model fits
+2025-07-02 17:42:50,144      completed 66% of model fits
+2025-07-02 17:42:50,214      completed 83% of model fits
+2025-07-02 17:42:50,214      completed 100% of model fits
+2025-07-02 17:42:50,214  Performing model fits for QOI 2 of 20, bootstrap fits...
+2025-07-02 17:42:50,288      completed 0% of model fits
+2025-07-02 17:42:52,517      completed 10% of model fits
+2025-07-02 17:42:54,685      completed 20% of model fits
+2025-07-02 17:42:56,640      completed 30% of model fits
+2025-07-02 17:42:58,834      completed 40% of model fits
+2025-07-02 17:43:01,015      completed 50% of model fits
+2025-07-02 17:43:03,155      completed 60% of model fits
+2025-07-02 17:43:05,346      completed 70% of model fits
+2025-07-02 17:43:07,464      completed 80% of model fits
+2025-07-02 17:43:09,558      completed 90% of model fits
+2025-07-02 17:43:11,560      completed 100% of model fits
+2025-07-02 17:43:11,564  ---------------------------------------------------------------------------
+2025-07-02 17:43:11,564  Performing model fits for QOI 3 of 20, raw fits...
+2025-07-02 17:43:11,565      completed 0% of model fits
+2025-07-02 17:43:11,649      completed 16% of model fits
+2025-07-02 17:43:11,656      completed 33% of model fits
+2025-07-02 17:43:11,662      completed 50% of model fits
+2025-07-02 17:43:11,713      completed 66% of model fits
+2025-07-02 17:43:11,757      completed 83% of model fits
+2025-07-02 17:43:11,758      completed 100% of model fits
+2025-07-02 17:43:11,758  Performing model fits for QOI 3 of 20, bootstrap fits...
+2025-07-02 17:43:11,862      completed 0% of model fits
+2025-07-02 17:43:14,268      completed 10% of model fits
+2025-07-02 17:43:16,622      completed 20% of model fits
+2025-07-02 17:43:19,135      completed 30% of model fits
+2025-07-02 17:43:21,561      completed 40% of model fits
+2025-07-02 17:43:23,962      completed 50% of model fits
+2025-07-02 17:43:26,089      completed 60% of model fits
+2025-07-02 17:43:28,222      completed 70% of model fits
+2025-07-02 17:43:30,451      completed 80% of model fits
+2025-07-02 17:43:32,742      completed 90% of model fits
+2025-07-02 17:43:35,039      completed 100% of model fits
+2025-07-02 17:43:35,043  ---------------------------------------------------------------------------
+2025-07-02 17:43:35,043  Performing model fits for QOI 4 of 20, raw fits...
+2025-07-02 17:43:35,044      completed 0% of model fits
+2025-07-02 17:43:35,124      completed 16% of model fits
+2025-07-02 17:43:35,131      completed 33% of model fits
+2025-07-02 17:43:35,138      completed 50% of model fits
+2025-07-02 17:43:35,191      completed 66% of model fits
+2025-07-02 17:43:35,234      completed 83% of model fits
+2025-07-02 17:43:35,234      completed 100% of model fits
+2025-07-02 17:43:35,234  Performing model fits for QOI 4 of 20, bootstrap fits...
+2025-07-02 17:43:35,312      completed 0% of model fits
+2025-07-02 17:43:37,746      completed 10% of model fits
+2025-07-02 17:43:40,157      completed 20% of model fits
+2025-07-02 17:43:42,427      completed 30% of model fits
+2025-07-02 17:43:44,764      completed 40% of model fits
+2025-07-02 17:43:46,987      completed 50% of model fits
+2025-07-02 17:43:49,095      completed 60% of model fits
+2025-07-02 17:43:51,315      completed 70% of model fits
+2025-07-02 17:43:53,530      completed 80% of model fits
+2025-07-02 17:43:55,840      completed 90% of model fits
+2025-07-02 17:43:58,130      completed 100% of model fits
+2025-07-02 17:43:58,134  ---------------------------------------------------------------------------
+2025-07-02 17:43:58,135  Performing model fits for QOI 5 of 20, raw fits...
+2025-07-02 17:43:58,136      completed 0% of model fits
+2025-07-02 17:43:58,261      completed 16% of model fits
+2025-07-02 17:43:58,267      completed 33% of model fits
+2025-07-02 17:43:58,276      completed 50% of model fits
+2025-07-02 17:43:58,322      completed 66% of model fits
+2025-07-02 17:43:58,389      completed 83% of model fits
+2025-07-02 17:43:58,389      completed 100% of model fits
+2025-07-02 17:43:58,389  Performing model fits for QOI 5 of 20, bootstrap fits...
+2025-07-02 17:43:58,465      completed 0% of model fits
+2025-07-02 17:44:00,902      completed 10% of model fits
+2025-07-02 17:44:03,218      completed 20% of model fits
+2025-07-02 17:44:05,588      completed 30% of model fits
+2025-07-02 17:44:08,172      completed 40% of model fits
+2025-07-02 17:44:10,623      completed 50% of model fits
+2025-07-02 17:44:12,918      completed 60% of model fits
+2025-07-02 17:44:15,457      completed 70% of model fits
+2025-07-02 17:44:17,844      completed 80% of model fits
+2025-07-02 17:44:20,215      completed 90% of model fits
+2025-07-02 17:44:22,525      completed 100% of model fits
+2025-07-02 17:44:22,528  ---------------------------------------------------------------------------
+2025-07-02 17:44:22,529  Performing model fits for QOI 6 of 20, raw fits...
+2025-07-02 17:44:22,530      completed 0% of model fits
+2025-07-02 17:44:22,650      completed 16% of model fits
+2025-07-02 17:44:22,656      completed 33% of model fits
+2025-07-02 17:44:22,663      completed 50% of model fits
+2025-07-02 17:44:22,711      completed 66% of model fits
+2025-07-02 17:44:22,784      completed 83% of model fits
+2025-07-02 17:44:22,784      completed 100% of model fits
+2025-07-02 17:44:22,784  Performing model fits for QOI 6 of 20, bootstrap fits...
+2025-07-02 17:44:22,859      completed 0% of model fits
+2025-07-02 17:44:25,244      completed 10% of model fits
+2025-07-02 17:44:27,548      completed 20% of model fits
+2025-07-02 17:44:29,981      completed 30% of model fits
+2025-07-02 17:44:32,233      completed 40% of model fits
+2025-07-02 17:44:34,522      completed 50% of model fits
+2025-07-02 17:44:36,741      completed 60% of model fits
+2025-07-02 17:44:39,023      completed 70% of model fits
+2025-07-02 17:44:41,611      completed 80% of model fits
+2025-07-02 17:44:43,780      completed 90% of model fits
+2025-07-02 17:44:46,092      completed 100% of model fits
+2025-07-02 17:44:46,096  ---------------------------------------------------------------------------
+2025-07-02 17:44:46,096  Performing model fits for QOI 7 of 20, raw fits...
+2025-07-02 17:44:46,097      completed 0% of model fits
+2025-07-02 17:44:46,188      completed 16% of model fits
+2025-07-02 17:44:46,196      completed 33% of model fits
+2025-07-02 17:44:46,202      completed 50% of model fits
+2025-07-02 17:44:46,258      completed 66% of model fits
+2025-07-02 17:44:46,303      completed 83% of model fits
+2025-07-02 17:44:46,303      completed 100% of model fits
+2025-07-02 17:44:46,303  Performing model fits for QOI 7 of 20, bootstrap fits...
+2025-07-02 17:44:46,378      completed 0% of model fits
+2025-07-02 17:44:48,761      completed 10% of model fits
+2025-07-02 17:44:51,048      completed 20% of model fits
+2025-07-02 17:44:53,287      completed 30% of model fits
+2025-07-02 17:44:55,548      completed 40% of model fits
+2025-07-02 17:44:57,815      completed 50% of model fits
+2025-07-02 17:45:00,117      completed 60% of model fits
+2025-07-02 17:45:02,393      completed 70% of model fits
+2025-07-02 17:45:04,743      completed 80% of model fits
+2025-07-02 17:45:06,904      completed 90% of model fits
+2025-07-02 17:45:09,121      completed 100% of model fits
+2025-07-02 17:45:09,126  ---------------------------------------------------------------------------
+2025-07-02 17:45:09,126  Performing model fits for QOI 8 of 20, raw fits...
+2025-07-02 17:45:09,127      completed 0% of model fits
+2025-07-02 17:45:09,221      completed 16% of model fits
+2025-07-02 17:45:09,227      completed 33% of model fits
+2025-07-02 17:45:09,233      completed 50% of model fits
+2025-07-02 17:45:09,284      completed 66% of model fits
+2025-07-02 17:45:09,327      completed 83% of model fits
+2025-07-02 17:45:09,327      completed 100% of model fits
+2025-07-02 17:45:09,327  Performing model fits for QOI 8 of 20, bootstrap fits...
+2025-07-02 17:45:09,401      completed 0% of model fits
+2025-07-02 17:45:11,827      completed 10% of model fits
+2025-07-02 17:45:14,062      completed 20% of model fits
+2025-07-02 17:45:16,381      completed 30% of model fits
+2025-07-02 17:45:18,462      completed 40% of model fits
+2025-07-02 17:45:20,710      completed 50% of model fits
+2025-07-02 17:45:23,109      completed 60% of model fits
+2025-07-02 17:45:25,400      completed 70% of model fits
+2025-07-02 17:45:27,919      completed 80% of model fits
+2025-07-02 17:45:30,229      completed 90% of model fits
+2025-07-02 17:45:32,387      completed 100% of model fits
+2025-07-02 17:45:32,391  ---------------------------------------------------------------------------
+2025-07-02 17:45:32,391  Performing model fits for QOI 9 of 20, raw fits...
+2025-07-02 17:45:32,392      completed 0% of model fits
+2025-07-02 17:45:32,510      completed 16% of model fits
+2025-07-02 17:45:32,516      completed 33% of model fits
+2025-07-02 17:45:32,525      completed 50% of model fits
+2025-07-02 17:45:32,576      completed 66% of model fits
+2025-07-02 17:45:32,649      completed 83% of model fits
+2025-07-02 17:45:32,649      completed 100% of model fits
+2025-07-02 17:45:32,649  Performing model fits for QOI 9 of 20, bootstrap fits...
+2025-07-02 17:45:32,726      completed 0% of model fits
+2025-07-02 17:45:35,375      completed 10% of model fits
+2025-07-02 17:45:37,751      completed 20% of model fits
+2025-07-02 17:45:40,270      completed 30% of model fits
+2025-07-02 17:45:42,786      completed 40% of model fits
+2025-07-02 17:45:45,208      completed 50% of model fits
+2025-07-02 17:45:47,581      completed 60% of model fits
+2025-07-02 17:45:50,012      completed 70% of model fits
+2025-07-02 17:45:52,419      completed 80% of model fits
+2025-07-02 17:45:54,664      completed 90% of model fits
+2025-07-02 17:45:57,114      completed 100% of model fits
+2025-07-02 17:45:57,118  ---------------------------------------------------------------------------
+2025-07-02 17:45:57,118  Performing model fits for QOI 10 of 20, raw fits...
+2025-07-02 17:45:57,119      completed 0% of model fits
+2025-07-02 17:45:57,208      completed 16% of model fits
+2025-07-02 17:45:57,216      completed 33% of model fits
+2025-07-02 17:45:57,222      completed 50% of model fits
+2025-07-02 17:45:57,278      completed 66% of model fits
+2025-07-02 17:45:57,323      completed 83% of model fits
+2025-07-02 17:45:57,323      completed 100% of model fits
+2025-07-02 17:45:57,323  Performing model fits for QOI 10 of 20, bootstrap fits...
+2025-07-02 17:45:57,400      completed 0% of model fits
+2025-07-02 17:45:59,763      completed 10% of model fits
+2025-07-02 17:46:01,989      completed 20% of model fits
+2025-07-02 17:46:04,374      completed 30% of model fits
+2025-07-02 17:46:06,652      completed 40% of model fits
+2025-07-02 17:46:09,024      completed 50% of model fits
+2025-07-02 17:46:11,257      completed 60% of model fits
+2025-07-02 17:46:13,564      completed 70% of model fits
+2025-07-02 17:46:15,985      completed 80% of model fits
+2025-07-02 17:46:18,317      completed 90% of model fits
+2025-07-02 17:46:20,723      completed 100% of model fits
+2025-07-02 17:46:20,727  ---------------------------------------------------------------------------
+2025-07-02 17:46:20,727  Performing model fits for QOI 11 of 20, raw fits...
+2025-07-02 17:46:20,728      completed 0% of model fits
+2025-07-02 17:46:20,823      completed 16% of model fits
+2025-07-02 17:46:20,830      completed 33% of model fits
+2025-07-02 17:46:20,836      completed 50% of model fits
+2025-07-02 17:46:20,890      completed 66% of model fits
+2025-07-02 17:46:20,935      completed 83% of model fits
+2025-07-02 17:46:20,936      completed 100% of model fits
+2025-07-02 17:46:20,936  Performing model fits for QOI 11 of 20, bootstrap fits...
+2025-07-02 17:46:21,010      completed 0% of model fits
+2025-07-02 17:46:23,235      completed 10% of model fits
+2025-07-02 17:46:25,783      completed 20% of model fits
+2025-07-02 17:46:28,089      completed 30% of model fits
+2025-07-02 17:46:30,308      completed 40% of model fits
+2025-07-02 17:46:32,549      completed 50% of model fits
+2025-07-02 17:46:34,942      completed 60% of model fits
+2025-07-02 17:46:37,375      completed 70% of model fits
+2025-07-02 17:46:39,626      completed 80% of model fits
+2025-07-02 17:46:42,006      completed 90% of model fits
+2025-07-02 17:46:44,361      completed 100% of model fits
+2025-07-02 17:46:44,365  ---------------------------------------------------------------------------
+2025-07-02 17:46:44,365  Performing model fits for QOI 12 of 20, raw fits...
+2025-07-02 17:46:44,366      completed 0% of model fits
+2025-07-02 17:46:44,462      completed 16% of model fits
+2025-07-02 17:46:44,470      completed 33% of model fits
+2025-07-02 17:46:44,476      completed 50% of model fits
+2025-07-02 17:46:44,530      completed 66% of model fits
+2025-07-02 17:46:44,575      completed 83% of model fits
+2025-07-02 17:46:44,575      completed 100% of model fits
+2025-07-02 17:46:44,575  Performing model fits for QOI 12 of 20, bootstrap fits...
+2025-07-02 17:46:44,652      completed 0% of model fits
+2025-07-02 17:46:47,164      completed 10% of model fits
+2025-07-02 17:46:49,545      completed 20% of model fits
+2025-07-02 17:46:51,843      completed 30% of model fits
+2025-07-02 17:46:54,195      completed 40% of model fits
+2025-07-02 17:46:56,535      completed 50% of model fits
+2025-07-02 17:46:58,675      completed 60% of model fits
+2025-07-02 17:47:01,055      completed 70% of model fits
+2025-07-02 17:47:03,437      completed 80% of model fits
+2025-07-02 17:47:05,657      completed 90% of model fits
+2025-07-02 17:47:08,059      completed 100% of model fits
+2025-07-02 17:47:08,064  ---------------------------------------------------------------------------
+2025-07-02 17:47:08,064  Performing model fits for QOI 13 of 20, raw fits...
+2025-07-02 17:47:08,065      completed 0% of model fits
+2025-07-02 17:47:08,157      completed 16% of model fits
+2025-07-02 17:47:08,165      completed 33% of model fits
+2025-07-02 17:47:08,171      completed 50% of model fits
+2025-07-02 17:47:08,227      completed 66% of model fits
+2025-07-02 17:47:08,270      completed 83% of model fits
+2025-07-02 17:47:08,270      completed 100% of model fits
+2025-07-02 17:47:08,270  Performing model fits for QOI 13 of 20, bootstrap fits...
+2025-07-02 17:47:08,346      completed 0% of model fits
+2025-07-02 17:47:10,616      completed 10% of model fits
+2025-07-02 17:47:12,923      completed 20% of model fits
+2025-07-02 17:47:15,258      completed 30% of model fits
+2025-07-02 17:47:17,609      completed 40% of model fits
+2025-07-02 17:47:19,942      completed 50% of model fits
+2025-07-02 17:47:22,341      completed 60% of model fits
+2025-07-02 17:47:24,556      completed 70% of model fits
+2025-07-02 17:47:26,865      completed 80% of model fits
+2025-07-02 17:47:29,172      completed 90% of model fits
+2025-07-02 17:47:31,469      completed 100% of model fits
+2025-07-02 17:47:31,473  ---------------------------------------------------------------------------
+2025-07-02 17:47:31,473  Performing model fits for QOI 14 of 20, raw fits...
+2025-07-02 17:47:31,474      completed 0% of model fits
+2025-07-02 17:47:31,563      completed 16% of model fits
+2025-07-02 17:47:31,570      completed 33% of model fits
+2025-07-02 17:47:31,576      completed 50% of model fits
+2025-07-02 17:47:31,634      completed 66% of model fits
+2025-07-02 17:47:31,676      completed 83% of model fits
+2025-07-02 17:47:31,676      completed 100% of model fits
+2025-07-02 17:47:31,676  Performing model fits for QOI 14 of 20, bootstrap fits...
+2025-07-02 17:47:31,749      completed 0% of model fits
+2025-07-02 17:47:33,981      completed 10% of model fits
+2025-07-02 17:47:36,248      completed 20% of model fits
+2025-07-02 17:47:38,647      completed 30% of model fits
+2025-07-02 17:47:41,067      completed 40% of model fits
+2025-07-02 17:47:43,407      completed 50% of model fits
+2025-07-02 17:47:45,787      completed 60% of model fits
+2025-07-02 17:47:48,098      completed 70% of model fits
+2025-07-02 17:47:50,257      completed 80% of model fits
+2025-07-02 17:47:52,673      completed 90% of model fits
+2025-07-02 17:47:54,864      completed 100% of model fits
+2025-07-02 17:47:54,868  ---------------------------------------------------------------------------
+2025-07-02 17:47:54,868  Performing model fits for QOI 15 of 20, raw fits...
+2025-07-02 17:47:54,869      completed 0% of model fits
+2025-07-02 17:47:54,964      completed 16% of model fits
+2025-07-02 17:47:54,971      completed 33% of model fits
+2025-07-02 17:47:54,978      completed 50% of model fits
+2025-07-02 17:47:55,033      completed 66% of model fits
+2025-07-02 17:47:55,078      completed 83% of model fits
+2025-07-02 17:47:55,078      completed 100% of model fits
+2025-07-02 17:47:55,078  Performing model fits for QOI 15 of 20, bootstrap fits...
+2025-07-02 17:47:55,154      completed 0% of model fits
+2025-07-02 17:47:57,387      completed 10% of model fits
+2025-07-02 17:47:59,681      completed 20% of model fits
+2025-07-02 17:48:02,016      completed 30% of model fits
+2025-07-02 17:48:04,258      completed 40% of model fits
+2025-07-02 17:48:06,478      completed 50% of model fits
+2025-07-02 17:48:08,780      completed 60% of model fits
+2025-07-02 17:48:11,136      completed 70% of model fits
+2025-07-02 17:48:13,317      completed 80% of model fits
+2025-07-02 17:48:15,660      completed 90% of model fits
+2025-07-02 17:48:17,840      completed 100% of model fits
+2025-07-02 17:48:17,844  ---------------------------------------------------------------------------
+2025-07-02 17:48:17,844  Performing model fits for QOI 16 of 20, raw fits...
+2025-07-02 17:48:17,845      completed 0% of model fits
+2025-07-02 17:48:17,938      completed 16% of model fits
+2025-07-02 17:48:17,945      completed 33% of model fits
+2025-07-02 17:48:17,951      completed 50% of model fits
+2025-07-02 17:48:18,007      completed 66% of model fits
+2025-07-02 17:48:18,053      completed 83% of model fits
+2025-07-02 17:48:18,054      completed 100% of model fits
+2025-07-02 17:48:18,054  Performing model fits for QOI 16 of 20, bootstrap fits...
+2025-07-02 17:48:18,126      completed 0% of model fits
+2025-07-02 17:48:20,386      completed 10% of model fits
+2025-07-02 17:48:22,540      completed 20% of model fits
+2025-07-02 17:48:24,802      completed 30% of model fits
+2025-07-02 17:48:27,209      completed 40% of model fits
+2025-07-02 17:48:29,531      completed 50% of model fits
+2025-07-02 17:48:31,880      completed 60% of model fits
+2025-07-02 17:48:34,382      completed 70% of model fits
+2025-07-02 17:48:36,702      completed 80% of model fits
+2025-07-02 17:48:39,037      completed 90% of model fits
+2025-07-02 17:48:41,096      completed 100% of model fits
+2025-07-02 17:48:41,100  ---------------------------------------------------------------------------
+2025-07-02 17:48:41,100  Performing model fits for QOI 17 of 20, raw fits...
+2025-07-02 17:48:41,101      completed 0% of model fits
+2025-07-02 17:48:41,195      completed 16% of model fits
+2025-07-02 17:48:41,202      completed 33% of model fits
+2025-07-02 17:48:41,208      completed 50% of model fits
+2025-07-02 17:48:41,263      completed 66% of model fits
+2025-07-02 17:48:41,323      completed 83% of model fits
+2025-07-02 17:48:41,323      completed 100% of model fits
+2025-07-02 17:48:41,323  Performing model fits for QOI 17 of 20, bootstrap fits...
+2025-07-02 17:48:41,401      completed 0% of model fits
+2025-07-02 17:48:43,819      completed 10% of model fits
+2025-07-02 17:48:46,085      completed 20% of model fits
+2025-07-02 17:48:48,357      completed 30% of model fits
+2025-07-02 17:48:50,832      completed 40% of model fits
+2025-07-02 17:48:53,196      completed 50% of model fits
+2025-07-02 17:48:55,501      completed 60% of model fits
+2025-07-02 17:48:58,052      completed 70% of model fits
+2025-07-02 17:49:00,379      completed 80% of model fits
+2025-07-02 17:49:02,858      completed 90% of model fits
+2025-07-02 17:49:05,143      completed 100% of model fits
+2025-07-02 17:49:05,148  ---------------------------------------------------------------------------
+2025-07-02 17:49:05,148  Performing model fits for QOI 18 of 20, raw fits...
+2025-07-02 17:49:05,149      completed 0% of model fits
+2025-07-02 17:49:05,246      completed 16% of model fits
+2025-07-02 17:49:05,254      completed 33% of model fits
+2025-07-02 17:49:05,260      completed 50% of model fits
+2025-07-02 17:49:05,315      completed 66% of model fits
+2025-07-02 17:49:05,361      completed 83% of model fits
+2025-07-02 17:49:05,361      completed 100% of model fits
+2025-07-02 17:49:05,361  Performing model fits for QOI 18 of 20, bootstrap fits...
+2025-07-02 17:49:05,436      completed 0% of model fits
+2025-07-02 17:49:07,744      completed 10% of model fits
+2025-07-02 17:49:10,073      completed 20% of model fits
+2025-07-02 17:49:12,494      completed 30% of model fits
+2025-07-02 17:49:14,923      completed 40% of model fits
+2025-07-02 17:49:17,208      completed 50% of model fits
+2025-07-02 17:49:19,454      completed 60% of model fits
+2025-07-02 17:49:21,738      completed 70% of model fits
+2025-07-02 17:49:24,062      completed 80% of model fits
+2025-07-02 17:49:26,319      completed 90% of model fits
+2025-07-02 17:49:28,617      completed 100% of model fits
+2025-07-02 17:49:28,621  ---------------------------------------------------------------------------
+2025-07-02 17:49:28,622  Performing model fits for QOI 19 of 20, raw fits...
+2025-07-02 17:49:28,623      completed 0% of model fits
+2025-07-02 17:49:28,719      completed 16% of model fits
+2025-07-02 17:49:28,726      completed 33% of model fits
+2025-07-02 17:49:28,732      completed 50% of model fits
+2025-07-02 17:49:28,789      completed 66% of model fits
+2025-07-02 17:49:28,834      completed 83% of model fits
+2025-07-02 17:49:28,834      completed 100% of model fits
+2025-07-02 17:49:28,834  Performing model fits for QOI 19 of 20, bootstrap fits...
+2025-07-02 17:49:28,908      completed 0% of model fits
+2025-07-02 17:49:31,315      completed 10% of model fits
+2025-07-02 17:49:33,661      completed 20% of model fits
+2025-07-02 17:49:35,938      completed 30% of model fits
+2025-07-02 17:49:38,282      completed 40% of model fits
+2025-07-02 17:49:40,661      completed 50% of model fits
+2025-07-02 17:49:42,986      completed 60% of model fits
+2025-07-02 17:49:45,227      completed 70% of model fits
+2025-07-02 17:49:47,513      completed 80% of model fits
+2025-07-02 17:49:49,940      completed 90% of model fits
+2025-07-02 17:49:52,084      completed 100% of model fits
+2025-07-02 17:49:52,088  ---------------------------------------------------------------------------
+2025-07-02 17:49:52,088  Performing model fits for QOI 20 of 20, raw fits...
+2025-07-02 17:49:52,089      completed 0% of model fits
+2025-07-02 17:49:52,188      completed 16% of model fits
+2025-07-02 17:49:52,195      completed 33% of model fits
+2025-07-02 17:49:52,202      completed 50% of model fits
+2025-07-02 17:49:52,260      completed 66% of model fits
+2025-07-02 17:49:52,306      completed 83% of model fits
+2025-07-02 17:49:52,306      completed 100% of model fits
+2025-07-02 17:49:52,306  Performing model fits for QOI 20 of 20, bootstrap fits...
+2025-07-02 17:49:52,384      completed 0% of model fits
+2025-07-02 17:49:54,683      completed 10% of model fits
+2025-07-02 17:49:56,897      completed 20% of model fits
+2025-07-02 17:49:59,136      completed 30% of model fits
+2025-07-02 17:50:01,459      completed 40% of model fits
+2025-07-02 17:50:03,847      completed 50% of model fits
+2025-07-02 17:50:06,158      completed 60% of model fits
+2025-07-02 17:50:08,637      completed 70% of model fits
+2025-07-02 17:50:10,838      completed 80% of model fits
+2025-07-02 17:50:13,149      completed 90% of model fits
+2025-07-02 17:50:15,401      completed 100% of model fits
+2025-07-02 17:50:15,406  ---------------------------------------------------------------------------
+2025-07-02 17:50:15,407  Saving output...
+2025-07-02 17:50:16,517      saved output/model_fits.pkl
+2025-07-02 17:50:17,621      saved output/model_fits.txt
+2025-07-02 17:50:17,717      saved output/model_fits.csv
+2025-07-02 17:50:22,223      saved output/model_fits.tex
+2025-07-02 17:50:22,348      saved output/model_fit_statistics.pkl
+2025-07-02 17:50:22,357      saved output/model_fit_statistics.txt
+2025-07-02 17:50:22,361      saved output/model_fit_statistics.csv
+2025-07-02 17:50:22,409      saved output/model_fit_statistics.tex
+2025-07-02 17:50:22,784      saved output/summary_statistics.pkl
+2025-07-02 17:50:22,789      saved output/summary_statistics.txt
+2025-07-02 17:50:22,792      saved output/summary_statistics.csv
+2025-07-02 17:50:22,806      saved output/summary_statistics.tex
+2025-07-02 17:50:23,188      saved output/subset_discretizations.pkl
+2025-07-02 17:50:23,197      saved output/subset_discretizations.txt
+2025-07-02 17:50:23,200      saved output/subset_discretizations.csv
+2025-07-02 17:50:23,229      saved output/subset_discretizations.tex
+2025-07-02 17:50:24,284      saved parameters plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/compare_parameters_gammas.pdf
+2025-07-02 17:50:25,203      saved parameters plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/compare_parameters_beta0s.pdf
+2025-07-02 17:50:25,577      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.001_t1.pdf
+2025-07-02 17:50:26,007      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.001_t5.pdf
+2025-07-02 17:50:26,342      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.001_t6.pdf
+2025-07-02 17:50:26,689      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.001_t12.pdf
+2025-07-02 17:50:27,012      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.006_t1.pdf
+2025-07-02 17:50:27,354      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.006_t5.pdf
+2025-07-02 17:50:27,698      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.006_t6.pdf
+2025-07-02 17:50:28,097      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.006_t12.pdf
+2025-07-02 17:50:28,430      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.03_t1.pdf
+2025-07-02 17:50:28,789      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.03_t5.pdf
+2025-07-02 17:50:29,119      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.03_t6.pdf
+2025-07-02 17:50:29,453      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.03_t12.pdf
+2025-07-02 17:50:29,878      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.045_t1.pdf
+2025-07-02 17:50:30,217      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.045_t5.pdf
+2025-07-02 17:50:30,572      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.045_t6.pdf
+2025-07-02 17:50:30,905      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.045_t12.pdf
+2025-07-02 17:50:31,228      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.0517_t1.pdf
+2025-07-02 17:50:31,561      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.0517_t5.pdf
+2025-07-02 17:50:31,978      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.0517_t6.pdf
+2025-07-02 17:50:32,333      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_time15612_m3_tol8_Tavg/plot/estimated_converged_value_dim_1_Tavg_z0.0517_t12.pdf
+2025-07-02 17:50:32,333  ---------------------------------------------------------------------------
+2025-07-02 17:50:32,333  total execution time: 486.44275522232056 s

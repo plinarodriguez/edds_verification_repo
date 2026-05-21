@@ -1,0 +1,49 @@
+Dakota version 6.20 released May 15, 2024.
+Repository revision ff549cf04 (2024-05-13) built May 13 2024 09:56:06.
+Running MPI Dakota executable in serial mode.
+Start time: Mon Nov 18 18:41:23 2024
+
+-----------------------
+Begin DAKOTA input file
+dakota.in
+-----------------------
+environment
+	tabular_data
+		tabular_data_file "tabular.dat"
+
+method
+  list_parameter_study
+    list_of_points
+      0 1
+      1 6 
+      2 6
+
+variables
+  active design
+  continuous_design = 2 
+    descriptors = 'mesh_size' 'num_processors'
+    initial_point   16 6
+
+interface,
+  analysis_driver = 'driver.py'
+  fork
+    parameters_file = 'params.in'
+    results_file    = 'results.out'
+    work_directory directory_tag
+    copy_files = 'parallelRun/*' 'template*'
+    link_files = 'linkfile'
+    named 'workdir' file_save directory_save
+    aprepro
+  asynchronous
+    evaluation_concurrency 3
+
+responses,
+  response_functions = 4
+  descriptors = 'maxTFluid' 'minTFluid' 'maxTSolid' 'minTSolid'
+  no_gradients
+  no_hessians
+---------------------
+End DAKOTA input file
+---------------------
+
+Using Dakota input file 'dakota.in'

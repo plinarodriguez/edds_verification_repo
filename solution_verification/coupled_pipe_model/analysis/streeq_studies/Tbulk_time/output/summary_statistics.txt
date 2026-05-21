@@ -1,0 +1,3 @@
+           QOI parameter        exact         mean  lower bound  upper bound      boot sd bounded
+0  Temperature    gamma1 1.000000e+00 1.919407e+00 1.431273e+00 2.000000e+00 1.424598e-01   False
+1  Temperature     beta0          NaN 3.072560e+02 3.072378e+02 3.072871e+02 1.225318e-02     NaN

@@ -1,0 +1,57 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     chtMultiRegionFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         {duration};  //1.0;
+
+deltaT          {time_step};  //use this =  0.0005 //test = 0.005 // Time step increment for solving
+
+writeControl    runTime; //controls output based on time 
+
+writeInterval   {write_interval};  //save output at every 0.1 time increment
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  12;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   12;
+
+runTimeModifiable yes;
+
+adjustTimeStep  yes; // yes: is needed to ensure teh maxCourant number is met, fix after testing
+
+maxCo           1.0;
+
+maxDeltaT       1;
+
+
+
+// ************************************************************************* //
+

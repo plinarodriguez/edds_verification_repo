@@ -1,0 +1,23 @@
+title: data_t5_Tavg
+
+response data:
+  file:
+    name: data_t5_Tavg.dat 
+  format:
+    stochastic: False
+    dimensions: 2
+    number of QOIs: 1
+    QOI names: ['Temperature']
+  exact values: [1.]
+
+error model:
+  orders of convergence:
+    nominal: [2., 1.]
+
+numerics:
+  random number generator:
+    initial seed: 2833877509
+
+options:
+  automatic subset selection:
+    enable: False

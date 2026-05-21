@@ -1,0 +1,4 @@
+type        wallHeatFlux;
+libs        ("libfieldFunctionObjects.so");
+region      pipeFluid;
+patches     (pipeFluid_to_caseSolid);

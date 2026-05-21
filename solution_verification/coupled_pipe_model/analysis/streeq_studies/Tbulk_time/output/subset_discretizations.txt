@@ -1,0 +1,6 @@
+QOI              X1 Temperature
+subset                        0
+0      5.000000e-04        True
+1      1.000000e-03        True
+2      2.000000e-03        True
+3      4.000000e-03        True

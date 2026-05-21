@@ -1,0 +1,60 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "constant/caseSolid";
+    object      thermophysicalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+thermoType
+{
+    type            heSolidThermo;
+    mixture         pureMixture;
+    transport       constIso;
+    thermo          eConst;
+    equationOfState rhoConst;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+mixture
+{
+    specie
+    {
+	nMoles          1;
+        molWeight       58.693; // Molecular Weight of Nickel
+    }
+    thermodynamics
+    {
+        Cp              0.00444; //this is an artificial heat source, Heat Capacity of Nickel =  444;
+        Cv		        0.00444; //this is an artificial heat source, Heat Capacity of Nickel =  444;
+        Hf              0;
+    }
+    transport
+    {
+        kappa           91;    // Thermal Conductivity of Nickel
+    }
+    equationOfState
+    {
+	rho                 0.089;  // This is an artificial heat source, Density of Nickel = 8900
+    }
+}
+
+
+
+
+
+
+
+
+// ************************************************************************* //
+

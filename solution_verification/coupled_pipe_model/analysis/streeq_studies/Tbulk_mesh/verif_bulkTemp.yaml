@@ -1,0 +1,29 @@
+title: df_sim_Tbulk_all_mesh
+
+response data:
+  file:  
+    name: df_sim_Tbulk_all_mesh.dat
+    type: automatic
+    dtype: np.float64
+  format:
+    stochastic: False
+    dimensions: 1
+    number of QOIs: 1
+    QOI names: ['Temperature']
+
+variance estimator:
+  type: constant
+
+error model:
+  orders of convergence:
+    nominal: [1.]
+
+numerics:
+  random number generator:
+    initial seed: 2833877509
+
+options:
+  statistics output:
+    statistics type: parametric
+  plotting:
+    enable: true

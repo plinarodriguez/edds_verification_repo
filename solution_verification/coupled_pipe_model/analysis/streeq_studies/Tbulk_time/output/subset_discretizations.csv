@@ -1,0 +1,6 @@
+QOI,X1,Temperature
+subset,,0
+0,0.0005,True
+1,0.001,True
+2,0.002,True
+3,0.004,True

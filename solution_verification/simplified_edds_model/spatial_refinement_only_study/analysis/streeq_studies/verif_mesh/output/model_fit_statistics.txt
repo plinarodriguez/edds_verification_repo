@@ -1,0 +1,4 @@
+           QOI  subset parameter      median        mean  lower bound  upper bound  p-value       MAD   boot sd
+0  Temperature       0     beta0  305.653248  305.642247   305.439046   305.793929      NaN  0.050245  0.094619
+1  Temperature       0     beta1    2.348297    2.488659     1.891883     4.065625      NaN  0.239175  0.560932
+2  Temperature       0    gamma1    1.109252    1.152154     0.700909     1.801500      NaN  0.154633  0.268627

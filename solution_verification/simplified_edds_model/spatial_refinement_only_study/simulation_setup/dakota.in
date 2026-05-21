@@ -1,0 +1,39 @@
+environment
+	tabular_data
+		tabular_data_file "tabular.dat"
+
+method
+  list_parameter_study
+    list_of_points
+      0 3  0.005 0.5 12  1e-06
+      1 3  0.005 0.5 12  1e-06
+      2 5  0.005 0.5 12  1e-06
+      3 9  0.005 0.5 12  1e-06
+      4 18 0.005 0.5 12  1e-06
+      5 18 0.005 0.5 12  1e-06
+      6 18 0.005 0.5 12  1e-06
+
+variables
+  active design
+  continuous_design = 6 
+    descriptors = 'mesh_size' 'num_processors' 'time_step' 'write_interval' 'duration' 'tol'
+    initial_point   0 3 0.005 0.5 12 1e-6
+
+interface,
+  analysis_driver = 'postprocess.py'
+  fork
+    parameters_file = 'params.in'
+    results_file    = 'results.out'
+    work_directory directory_tag
+    copy_files = 'template/*' 'template*'
+    link_files = 'linkfile'
+    named 'workdir' file_save directory_save
+    aprepro
+  asynchronous
+    evaluation_concurrency 7
+
+responses,
+  response_functions = 12
+  descriptors = 't1_r2' 't2_r2' 't3_r2' 't4_r2' 't5_r2' 't6_r2' 't7_r2' 't8_r2' 't9_r2' 't10_r2' 't11_r2' 't12_r2'
+  no_gradients
+  no_hessians

@@ -1,0 +1,48 @@
+2025-07-03 11:44:37,462  StREEQ 1.0_dev
+2025-07-03 11:44:37,463  Running in serial mode
+2025-07-03 11:44:37,498  Input parameters successfully loaded from verif_mesh.yaml
+2025-07-03 11:44:37,500  Deterministic data for 1 QOIs loaded from data_t5_Tavg.dat
+2025-07-03 11:44:37,500  ---------------------------------------------------------------------------
+2025-07-03 11:44:37,500  Performing model fits for QOI 1 of 1, raw fits...
+2025-07-03 11:44:37,501      completed 0% of model fits
+2025-07-03 11:44:37,642      completed 16% of model fits
+2025-07-03 11:44:37,650      completed 33% of model fits
+2025-07-03 11:44:37,659      completed 50% of model fits
+2025-07-03 11:44:37,723      completed 66% of model fits
+2025-07-03 11:44:37,782      completed 83% of model fits
+2025-07-03 11:44:37,782      completed 100% of model fits
+2025-07-03 11:44:37,782  Performing model fits for QOI 1 of 1, bootstrap fits...
+2025-07-03 11:44:37,857      completed 0% of model fits
+2025-07-03 11:44:40,328      completed 10% of model fits
+2025-07-03 11:44:42,838      completed 20% of model fits
+2025-07-03 11:44:45,251      completed 30% of model fits
+2025-07-03 11:44:47,654      completed 40% of model fits
+2025-07-03 11:44:50,118      completed 50% of model fits
+2025-07-03 11:44:52,613      completed 60% of model fits
+2025-07-03 11:44:55,048      completed 70% of model fits
+2025-07-03 11:44:57,484      completed 80% of model fits
+2025-07-03 11:44:59,909      completed 90% of model fits
+2025-07-03 11:45:02,265      completed 100% of model fits
+2025-07-03 11:45:02,269  ---------------------------------------------------------------------------
+2025-07-03 11:45:02,269  Saving output...
+2025-07-03 11:45:02,294      saved output/model_fits.pkl
+2025-07-03 11:45:02,349      saved output/model_fits.txt
+2025-07-03 11:45:02,358      saved output/model_fits.csv
+2025-07-03 11:45:02,563      saved output/model_fits.tex
+2025-07-03 11:45:02,577      saved output/model_fit_statistics.pkl
+2025-07-03 11:45:02,586      saved output/model_fit_statistics.txt
+2025-07-03 11:45:02,590      saved output/model_fit_statistics.csv
+2025-07-03 11:45:02,859      saved output/model_fit_statistics.tex
+2025-07-03 11:45:02,884      saved output/summary_statistics.pkl
+2025-07-03 11:45:02,888      saved output/summary_statistics.txt
+2025-07-03 11:45:02,891      saved output/summary_statistics.csv
+2025-07-03 11:45:02,899      saved output/summary_statistics.tex
+2025-07-03 11:45:02,922      saved output/subset_discretizations.pkl
+2025-07-03 11:45:02,926      saved output/subset_discretizations.txt
+2025-07-03 11:45:02,929      saved output/subset_discretizations.csv
+2025-07-03 11:45:02,935      saved output/subset_discretizations.tex
+2025-07-03 11:45:03,249      saved parameters plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_mesh/plot/compare_parameters_gammas.pdf
+2025-07-03 11:45:03,453      saved parameters plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_mesh/plot/compare_parameters_beta0s.pdf
+2025-07-03 11:45:03,786      saved convergence plot to /home/prodrig/Documents/streeq_verification/solution_verification/verif_mesh/plot/estimated_converged_value_dim_1_Temperature.pdf
+2025-07-03 11:45:03,786  ---------------------------------------------------------------------------
+2025-07-03 11:45:03,786  total execution time: 26.32438063621521 s

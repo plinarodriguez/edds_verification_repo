@@ -1,0 +1,64 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "constant/pipeFluid";
+    object      thermophysicalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+thermoType
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState  rhoConst;                        //incompressiblePerfectGas; Incompressible, constant density
+    specie          specie;
+    energy          sensibleEnthalpy;     //InternalEnergy;
+}
+
+mixture
+{
+    specie
+    {
+	nMoles          1;
+        molWeight       28.96;    // Molecular Weight of Air
+    }
+    thermodynamics
+    {
+        Cp              1004.5;   // Specific Heat Capacity of Air at constant pressure (J/kg/K)
+        Cv              717;      // Specific Heat Capacity of Air at constnat volume (J/kg/K) 
+        Hf              0;        // Enthalpy of formation (J/kg) 
+    }
+    transport
+    {
+        mu              1.8e-05;  // Viscosity of Air
+        Pr              0.7;      // Prandtl Number
+	kappa           0.0259;   // Thermal conductivity of air (W/mK)
+    }
+    equationOfState
+    {
+        rho         1.225;                 // Define the constant density (kg/m^3) for air
+       // type            incompressiblePerfectGas;
+       // pRef            101325;   // Reference pressure (in Pascals), e.g., 1 atm = 101325 Pa
+    
+    }
+}
+
+
+
+
+
+
+
+
+// ************************************************************************* //
+

@@ -1,0 +1,55 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       volScalarField;
+    location    "0/pipeFluid";
+    object      T;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 1 0 0 0];
+
+internalField   uniform 293.15; // Room temp (will be the cold temp)
+
+boundaryField
+{
+    #includeEtc "caseDicts/setConstraintTypes"
+
+    inlet
+    {
+        // type            fixedValue;
+        // value           $internalField;
+        type            zeroGradient; // insulated axial end
+    }
+    outlet
+    {
+        type            zeroGradient; //insulated axila end
+
+    }
+    wallin
+    {
+        type            zeroGradient; //insulated axila end
+        // type		    fixedValue;
+	    // value		    $internalField;
+    }
+    pipeFluid_to_caseSolid
+    {
+    	type            compressible::turbulentTemperatureCoupledBaffleMixed;
+    	value           $internalField;  // Initial guess for the temperature
+    	Tnbr            T;            // Refers to the temperature field in the solid region
+    	//kappa           fluidThermo;  // Uses thermal conductivity from the fluid properties
+    	//kappaName       none;
+    }
+}
+
+
+// ************************************************************************* //
+
+

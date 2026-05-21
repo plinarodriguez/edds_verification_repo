@@ -1,0 +1,77 @@
+reset
+# Units are in mm
+#{pipe_r=2.27}          # diameter of pipe
+#{case_r=2.57}          # atomizer diameter 0.3mm thickness
+#{case_h=45.0}           # atomizer height
+#{pipe_h=45.0+45.5*0.25}        # full edds length
+create cylinder height {case_h} radius {case_r}
+create cylinder height {pipe_h} radius {pipe_r}
+subtract volume 2 from volume 1 keep
+delete volume 1
+merge all
+move volume 3 z 5.6875 include_merged
+#so that the inlet is at z = 0 
+move volume 2 3 z {pipe_h} / 2 include_merged
+imprint volume 3 2
+merge all
+volume 3 rename "caseFluid"
+volume 2 rename "pipeSolid"
+surface 7 rename "interfaceWall"
+surface 5 rename "inlet"
+surface 6 rename "outlet"
+surface 8 rename "externalWall"
+surface 9 rename "wallInlet"
+surface 10 rename "wallOutlet"
+surface 12 rename "wallin"
+#merge surface all
+volume 2 size 0.5
+volume 3 size 0.5
+curve 8 interval 100
+curve 9 10 interval 50
+# Creates uniform radial intervals
+surface 10 scheme hole rad_intervals 2
+mesh surface 10
+mesh volume all
+block 1 add volume 2
+block 1 name "pipeFluid"
+block 2 add volume 3
+block 2 name "caseSolid"
+sideset 1 add surface 5
+sideset 1 name "inlet"
+sideset 2 add surface 6
+sideset 2 name "outlet"
+sideset 3 add surface 7
+sideset 3 name "interfaceWall"
+sideset 4 add surface 8
+sideset 4 name "externalWall"
+sideset 5 add surface 9
+sideset 5 name "wallInlet"
+sideset 6 add surface 10
+sideset 6 name "wallOutlet"
+sideset 7 add surface 12
+sideset 7 name "wallin"
+create cfd_bc name "inlet" velocityinlet on sideset 1
+create cfd_bc name "outlet" pressureoutlet on sideset 2
+#create cfd_bc name 'interfaceWall' Wall on sideset 3
+create cfd_bc name "interfaceWall" interface on sideset 3
+create cfd_bc name "externalwallSolid" wall on sideset 4
+create cfd_bc name "wallInletSolid" wall on sideset 5
+create cfd_bc name "wallOutletSolid" wall on sideset 6
+create cfd_bc name "wallin" wall on sideset 7
+group "inletPipe" add surface 5
+group "outletPipe" add surface 6
+group "interfacePipeCase" add surface 7
+group "wallsCase" add surface 8 9 10
+group "wallsPipe" add surface 12
+# scale from mm to meter  
+volume all scale 0.001
+#Coarse Mesh
+export fluent "shortPipelongCase_m0_caseht.msh" overwrite everything
+#Medium Fine Mesh 2^3
+scale mesh volume all multiplier 8 minimum 1 swept_blocks
+#export fluent "shortPipelongCase_m1_caseht.msh" overwrite everything
+#Medium Fine Mesh 2^3
+#scale mesh volume all multiplier 8 minimum 1 swept_blocks
+#export fluent "shortPipelongCase_m2_caseht.msh" overwrite everything
+
+

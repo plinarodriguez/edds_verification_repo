@@ -1,0 +1,57 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       volScalarField;
+    location    "0/caseSolid";
+    object      T;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 1 0 0 0];
+
+internalField   uniform 293.15; // 20C,323.15K=50C, 373.15K=100C;
+
+boundaryField
+{
+    #includeEtc "caseDicts/setConstraintTypes"
+
+    externalwallSolid
+    {
+        type            fixedValue;
+        value           uniform 293.15; // 20C,323.15K=50C, 373.15K=100C;
+//	type		zeroGradient;
+    }
+    wallInletSolid
+    {
+        type            fixedValue;
+        value           uniform 293.15; // 20C,323.15K=50C, 373.15K=100C;
+//        type            zeroGradient;
+    }
+    wallOutletSolid
+    {
+        type            fixedValue;
+	value	        uniform 293.15; // 20C,323.15K=50C, 373.15K=100C;
+//        type            zeroGradient;
+    }
+    caseSolid_to_pipeFluid
+    {
+    	type            compressible::turbulentTemperatureCoupledBaffleMixed;  // coupled Temp and heat flux across interface
+    	value           $internalField;  // Initial temperature in the solid region
+    	Tnbr            T;            // Refers to the temperature field in the fluid region
+    	//kappa           solidThermo;  // Uses thermal conductivity from the solid properties
+    	//kappaName       none;
+    }
+}
+
+
+// ************************************************************************* //
+
+
+

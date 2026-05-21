@@ -1,0 +1,44 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system/caseSolid";
+    object      fvSolution;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+solvers
+{
+    e
+    {
+        solver           PCG;
+        preconditioner   DIC;  // Diagonal Incomplete Cholesky preconditioner
+        tolerance        1e-06;
+        relTol           0.1;
+        maxIter          500; 
+    }
+
+    eFinal
+    {
+        solver           PCG; // Preconditioned COnjugate Gradient Solver for energy field
+        preconditioner   DIC;  // Diagonal Incomplete Cholesky preconditioner
+        tolerance        1e-06;
+        relTol           0.2;
+        maxIter          500;  //Allow for more iterations
+    }
+}
+
+PIMPLE
+{
+    nNonOrthogonalCorrectors 0;
+}
+
+
+// ************************************************************************* //
