@@ -6,8 +6,8 @@ They must be listed in this format so that the Dakota workflow could read in the
 
 - mesh0.msh (coarsest mesh)
 - mesh1.msh
-- mesh2.msh
-- mesh3.msh (nominal mesh used for tolerance and time step study)
+- mesh2.msh (nominal mesh used for tolerance and time step study)
+- mesh3.msh
 - mesh4.msh
 - mesh5.msh
 - mesh6.msh (finest mesh)
