@@ -71,30 +71,30 @@ group 'wallsPipe' add Surface 11 13
 volume all scale 0.001   # scale from mm to meter  
 
 #Coarse Mesh
-export fluent "/ascldap/users/prodrig/Desktop/cubit_test/pipeCase.msh"  overwrite  everything 
-export fluent "/ascldap/users/prodrig/Desktop/cubit_test/pipeCaseLoFi_Mesh1.msh"  overwrite  everything 
+export fluent "/cubit_test/pipeCase.msh"  overwrite  everything 
+export fluent "/cubit_test/pipeCaseLoFi_Mesh1.msh"  overwrite  everything 
 
 #Medium Mesh
 scale mesh volume all multiplier 2 minimum 1 swept_blocks
-export fluent "/ascldap/users/prodrig/Desktop/cubit_test/pipeCaseLoFi_Mesh2.msh"  overwrite  everything 
+export fluent "/cubit_test/pipeCaseLoFi_Mesh2.msh"  overwrite  everything 
 
 #Medium Fine Mesh
 scale mesh volume all multiplier 2 minimum 1 swept_blocks
-export fluent "/ascldap/users/prodrig/Desktop/cubit_test/pipeCaseLoFi_Mesh3.msh"  overwrite  everything 
+export fluent "/cubit_test/pipeCaseLoFi_Mesh3.msh"  overwrite  everything 
 
 #Fine Mesh
 scale mesh volume all multiplier 2 minimum 1 swept_blocks
-export fluent "/ascldap/users/prodrig/Desktop/cubit_test/pipeCaseLoFi_Mesh4.msh"  overwrite  everything 
+export fluent "/cubit_test/pipeCaseLoFi_Mesh4.msh"  overwrite  everything 
 
 #Finer Mesh
 scale mesh volume all multiplier 2 minimum 1 swept_blocks
-export fluent "/ascldap/users/prodrig/Desktop/cubit_test/pipeCaseLoFi_Mesh5.msh"  overwrite  everything 
+export fluent "/cubit_test/pipeCaseLoFi_Mesh5.msh"  overwrite  everything 
 
 #Finest Mesh
 scale mesh volume all multiplier 2 minimum 1 swept_blocks
-export fluent "/ascldap/users/prodrig/Desktop/cubit_test/pipeCaseLoFi_Mesh6.msh"  overwrite  everything 
+export fluent "/cubit_test/pipeCaseLoFi_Mesh6.msh"  overwrite  everything 
 
 #Most Fine Mesh
 scale mesh volume all multiplier 2 minimum 1 swept_blocks
-export fluent "/ascldap/users/prodrig/Desktop/cubit_test/pipeCaseLoFi_Mesh7.msh"  overwrite  everything 
+export fluent "/cubit_test/pipeCaseLoFi_Mesh7.msh"  overwrite  everything 
 
