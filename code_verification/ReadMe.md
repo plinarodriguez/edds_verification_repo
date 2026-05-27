@@ -1,5 +1,3 @@
-# Running the Workflows
-
 ## Single Simulation Studies
 
 Single simulation studies include:
