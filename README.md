@@ -124,9 +124,9 @@ Meshes are not included directly in the repository. Instead, Cubit journal files
 * Python 3.x
 * MPI
 * SLURM
-* Cubit
-* Dakota
-* StREEQ
+* Cubit 17.04
+* Dakota 6.20
+* StREEQ v1.0.2
 
 ## Python Packages
 
