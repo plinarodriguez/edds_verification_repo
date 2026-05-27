@@ -12,8 +12,6 @@ The project includes:
 
 The workflows are designed to support transparent and reproducible computational modeling and simulation (CM&S) studies for credibility assessment.
 
----
-
 # Scientific Motivation
 
 The full EDDS multiphysics system does not have an analytical solution. To build credibility in the computational model, verification studies were performed using simplified geometries and isolated physics.
@@ -27,8 +25,6 @@ The verification strategy follows a modular approach:
 5. Evaluate coupled multiphysics behavior
 
 This repository supports reproducible verification workflows aligned with risk-informed credibility assessment approaches for computational modeling and simulation.
-
----
 
 # Computational Model
 
@@ -66,8 +62,6 @@ The simulations use:
 Meshes were generated using Cubit and exported as Fluent `.msh` files before conversion to OpenFOAM format.
 
 Meshes are not included directly in the repository. Instead, Cubit journal files are provided to support reproducible mesh generation.
-
----
 
 # Repository Organization
 
@@ -122,8 +116,6 @@ Meshes are not included directly in the repository. Instead, Cubit journal files
 │           └── simulation_setup/
 ```
 
----
-
 # Software Requirements
 
 ## Required Software
@@ -170,8 +162,6 @@ Meshes are generated using Cubit journal files to allow reproducible reconstruct
 
 Large simulation outputs are reduced through extraction of quantities of interest (QoIs) into CSV files for lightweight post-processing and analysis.
 
----
-
 # Running the Workflows
 
 ## Single Simulation Studies
@@ -204,8 +194,6 @@ sbatch sbatch.batch
 5. Extract quantities of interest from VTK files 
 6. Run verification post-processing
 
----
-
 ## Multiple Simulation Studies
 
 Multiple simulation studies include:
@@ -231,15 +219,11 @@ These workflows:
 5. Compute discretization errors
 6. Generate convergence plots
 
----
-
 # Quantities of Interest (QoIs)
 
 The verification studies use extracted quantities of interest (QoIs) from simulation outputs to reduce storage requirements and simplify post-processing. Stored as CSV files for post-processing.
 
 QoIs include: Teperature and Velocity Profiles
-
----
 
 # Error Metrics
 
@@ -249,15 +233,13 @@ The repository includes verification analyses using:
 * Relative error comparisons with extrapolated quantities (using StREEQ)
 * Observed order of convergence
 
----
-
 # HPC Workflow
 
 ## MPI Parallelization
 
-OpenFOAM simulations are parallelized using MPI decomposition.
+OpenFOAM simulations are parallelized using MPI with mesh decomposition. 
 
-Typical workflow:
+Workflow:
 
 1. Decompose mesh
 2. Run parallel simulation
@@ -283,22 +265,19 @@ StREEQ is used for:
 Repository:
 [https://github.com/sandialabs/StREEQ](https://github.com/sandialabs/StREEQ)
 
----
-
 # References
 
 ## Software
 
-* OpenFOAM
-* Dakota
-* StREEQ
-* Cubit
+* [OpenFOAM v9](https://openfoam.org/version/9/)
+* [Dakota 6.20](https://dakota.sandia.gov/2024/05/15/dakota-6-20/)
+* [StREEQ v1.0.2](https://github.com/sandialabs/StREEQ)
+* [Cubit 17.04](https://cubit.sandia.gov/files/cubit/17.04/help_manual/WebHelp/cubithelp.htm)
 
 ## Standards and Methodology
 
-* ASME V&V 20
-* ASME V&V 40
-* NASEM Reproducibility and Replicability in Science
+* [ASME V&V 20](https://www.asme.org/codes-standards/find-codes-standards/standard-for-verification-and-validation-in-computational-fluid-dynamics-and-heat-transfer#ASME-digital-books)
+* [ASME V&V 40](https://www.asme.org/codes-standards/find-codes-standards/assessing-credibility-of-computational-modeling-through-verification-and-validation-application-to-medical-devices)
 
 ## Related Repositories
 
